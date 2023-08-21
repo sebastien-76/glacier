@@ -1,0 +1,16 @@
+.inscription {
+    height: 40vh;
+}
+
+.inscription > div > label {
+    display: block;
+    margin: 2em auto 0.25em;
+}
+
+
+.bouton_radio {
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,18 @@
+input {
+    display: block;
+    margin-left: 0;
+}
+
+.ajout_glace_volume {
+    width: 350px;
+}
+
+label {
+    display: block;
+    margin-left: 0;
+}
+
+select {
+    display: block;
+    width: 350px;
+}

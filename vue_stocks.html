@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="vue_stocks.css">
+    <title>Vue des stocks</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+    <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+            <form>
+                <fieldset class="vue_congelateur">
+                    <label for="dropdown">Stock de glaces dans un congélateur :</label>
+                    <select name="vue_congelateur" id="vue_congelateur">
+                        <option value:"">Selectionner le congélateur</option>
+                    </select>
+                </fieldset>
+                <div class="bouton_validation">     
+                    <input type="submit" value="Valider">
+                </div>
+            </form>
+            <!-- <form>
+                <fieldset class="vue_glace">
+                    <label for="dropdown">Stock d'une glace :</label>
+                    <select name="vue_glace" id="vue_glace">
+                        <option value:"">Selectionner la glace</option>
+                    </select>
+                </fieldset>
+                <div class="bouton_validation">    
+                    <input type="submit" value="Valider">
+                </div>
+            </form> -->
+    </main>
+</body>
+</html>

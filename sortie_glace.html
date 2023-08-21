@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="sortie_glace.css">
+    <title>Accueil glacier</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+    <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+            <form>
+                <fieldset class="sortie_glace">
+                    <div>
+                        <label for="dropdown">Congélateur :</label>
+                        <select name="congelateur" id="congelateur">
+                            <option value:"">Selectionner le congélateur de stockage</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="dropdown">Parfum de la glace :</label>
+                        <select name="glace" id="glace">
+                            <option value:"">Choisissez un parfum</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label form="date_sortie" id="date_sortie-label">Date de sortie :</label>
+                        <input type="date" name="date_sortie" id="date_sortie" placeholder="Entrez le volume de glace produit">
+                    </div>
+                   
+                </fieldset>
+                <div class="bouton_validation">    
+                    <input type="submit" value="Valider">
+                </div>
+            </form>
+
+    </main>
+</body>
+</html>

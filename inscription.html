@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+     <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+        <form>
+            <fieldset class="inscription">
+                <div>
+                    <label form="email" id="email-label">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="Entrez votre email">
+                </div>
+                <div>
+                    <label form="motdepasse" id="motdepasse-label">Mot de passe :</label>
+                    <input type="password" name="motdepasse" id="motdepasse" placeholder="Entrez votre mot de passe">
+                </div>
+                </fieldset>
+            <fieldset class="bouton_radio">
+                <legend>Rôle :</legend>
+                    <div>
+                        <input type="radio" id="role_1" name="role">
+                        <label for="role"> role_1</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="role_2" name="role">
+                        <label for="role"> role_2</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="role_3" name="role">
+                        <label for="role"> role_3</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="role_4" name="role">
+                        <label for="role"> role_4</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="role_5" name="role">
+                        <label for="role"> role_5</label>
+                    </div>
+            </fieldset>
+            <fieldset class="bouton_validation">
+                <input type="submit" value="Inscription">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

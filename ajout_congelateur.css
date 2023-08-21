@@ -1,0 +1,24 @@
+.ajout_congel > div > input {
+    display: block;
+    margin-left: 0;
+}
+
+.ajout_congel > div > label {
+    display: block;
+    margin-left: 0;
+}
+
+.ajout_congel > div > textarea {
+    display: block;
+    width: 300px;
+    height: 110px;
+}
+
+.ajout_congel > div > select {
+    display: block;
+    width: 350px;
+}
+
+.ajout_congel_congel {
+    width: 350px;
+}

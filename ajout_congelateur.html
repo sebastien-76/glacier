@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="ajout_congelateur.css">
+    <title>Ajout congélateur</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+    <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+            <form>
+                <fieldset class="ajout_congel">
+                    <div>
+                        <label form="name" id="name-label">Nom :</label>
+                        <input class="ajout_congel_congel" type="name" name="name" id="name" placeholder="Entrez le nom du congélateur">
+                    </div>
+                    <div>
+                        <label form="description" id="description-label">Description :</label>
+                        <textarea name="description" id="description" placeholder="Entrez la description du congélateur"></textarea>
+                    </div>
+                    <div>
+                        <label for="dropdown">Responsable :</label>
+                            <select name="glace" id="glace">
+                                <option value:"">Selectionner le responsable du congélateur</option>
+                            </select>
+                    </div>
+                </fieldset>
+                <div class="bouton_validation"> 
+                    <input type="submit" value="Valider">
+                </div>
+            </form>
+ 
+
+    </main>
+</body>
+</html>

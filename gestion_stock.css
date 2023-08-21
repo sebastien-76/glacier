@@ -1,0 +1,15 @@
+.bouton_ajout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 35vw;
+    height: 10vh;
+    margin: 1em;
+}

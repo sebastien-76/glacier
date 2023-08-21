@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="accueil.css">
+    <title>Accueil glacier</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+    <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+        <form>
+            <fieldset>
+                <div>
+                    <label form="email" id="email-label">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="Entrez votre email">
+                </div>
+                <div>
+                    <label form="motdepasse" id="motdepasse-label">Mot de passe :</label>
+                    <input type="password" name="motdepasse" id="motdepasse" placeholder="Entrez votre mot de passe">
+                </div>
+            </fieldset>
+            <div class="bouton_validation">
+                <input type="submit" value="Connexion">
+            </div>
+        </form>
+        <div class="texte_bas">
+            <p>Vous n'avez pas de compte?</p>
+            <a href="./inscription.html">Cliquez ici</a>
+        </div>
+    </main>
+</html>

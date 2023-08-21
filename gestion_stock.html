@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
+    <link rel="stylesheet" href="glacier.css">
+    <link rel="stylesheet" href="gestion_stock.css">
+    <title>Gestion de stock</title>
+</head>
+<body>
+    <header>
+        <h1>Les glaces de Séb</h1>
+    </header>
+    <main>
+        <nav_main>
+            <navbar class="lien">
+                <a href="accueil.html">Accueil</a>
+                <a href="gestion_stock.html">Gérer le stock</a>
+            </navbar>
+        </nav_main>
+        <form class="bouton_ajout">
+            <input type="button" onclick="window.location.href ='ajout_congelateur.html'" value="Ajouter un congelateur">
+            <input type="button" onclick="window.location.href ='ajout_parfum.html'" value="Ajouter un parfum">
+            <input type="button" onclick="window.location.href ='ajout_glace.html'"value="Ajouter une glace">
+            <input type="button" onclick="window.location.href ='sortie_glace.html'"value="Sortir une glace">
+            <input type="button" onclick="window.location.href ='vue_stocks.html'"value="Vue des stocks">
+        </form>
+</body>
+</html>

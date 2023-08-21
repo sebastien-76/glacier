@@ -1,0 +1,21 @@
+fieldset {
+    width: 15vw;
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.sortie_glace > div > input {
+    display: block;
+    margin-left: 0;
+}
+
+.sortie_glace > div > label {
+    display: block;
+    margin-left: 0;
+}
+
+.sortie_glace > div > select {
+    display: block;
+    width: 350px;
+}
